@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">#1A1B20</color>
+    <color name="item_menu_selected">#FF5722</color>
+    <color name="item_menu_unselected">#3E4145</color>
+    <color name="text_second">#C9C9C9</color>
+    <color name="divider">#A9A9A9</color>
+    <color name="background_tools">#00BCD4</color>
+</resources>

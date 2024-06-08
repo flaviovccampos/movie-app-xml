@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.AppCompatTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tv_genre"
+    android:background="@drawable/genre_item_background"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingHorizontal="@dimen/space_12"
+    android:paddingVertical="@dimen/space_4"
+    android:layout_marginEnd="@dimen/space_4"
+    android:textColor="@color/text_second"
+    tools:text="@string/genre_item_tools">
+
+</androidx.appcompat.widget.AppCompatTextView>

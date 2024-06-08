@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@color/background"
+    android:padding="@dimen/space_8">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/iv_poster"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:padding="@dimen/space_6"
+        android:contentDescription="@string/poster_image_content_description"
+        android:scaleType="centerCrop" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_8"
+        android:textSize="@dimen/text_size_17"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        tools:text="@string/movie_item_title_tools"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

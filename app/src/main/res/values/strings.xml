@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">MovieAppXML</string>
+    <string name="menu_movie">Movies</string>
+    <string name="menu_favorite">Favorites</string>
+    <string name="release_date_label">Release Date</string>
+    <string name="genre_label">Genres</string>
+    <string name="synopsis_label">Synopsis</string>
+    <string name="synopsis_lorem_ipsum">Mussum Ipsum, cacilds vidis litro abertis.  Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo, vitae iaculis nisl. Tá deprimidis, eu conheço uma cachacis que pode alegrar sua vidis. In elementis mé pra quem é amistosis quis leo. Quem num gosta di mé, boa gentis num é.
+Si u mundo tá muito paradis? Toma um mé que o mundo vai girarzis! Sapien in monti palavris qui num significa nadis i pareci latim. Mé faiz elementum girarzis, nisi eros vermeio. Nulla id gravida magna, ut semper sapien.
+Pra lá, depois divoltis porris, paradis. Nulla id gravida magna, ut semper sapien. Vehicula non. Ut sed ex eros. Vivamus sit amet nibh non tellus tristique interdum. Negão é teu passadis, eu sou faxa pretis.</string>
+    <string name="poster_image_content_description">poster_image</string>
+    <string name="movie_title_tools">Godzilla vs Kong - The New Empire,  episode 01</string>
+    <string name="movie_time_tools">152 minutes</string>
+    <string name="movie_votes_tools">7.2 votes</string>
+    <string name="movie_release_date_tools">December 9, 2019</string>
+    <string name="genre_item_tools">Action</string>
+    <string name="movie_item_title_tools">Kong vs Godzilla</string>
+    <string name="error_message_tools">Verifique sua conexão de internet e tente novamente</string>
+</resources>
