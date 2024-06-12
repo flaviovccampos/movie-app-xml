@@ -2,11 +2,11 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:id="@+id/nav_home"
-        android:icon="@drawable/home_24_unselected"
+        android:icon="@drawable/home_24_menu"
         android:title="@string/menu_movie"/>
     <item
         android:id="@+id/nav_favorite"
-        android:icon="@drawable/star_24_unselected"
+        android:icon="@drawable/favorite_24_menu"
         android:title="@string/menu_favorite"/>
 
 </menu>

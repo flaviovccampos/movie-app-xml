@@ -41,6 +41,7 @@ class MovieDetailsActivity : AppCompatActivity(), BaseView {
     private lateinit var synopsis: AppCompatTextView
     private lateinit var errorLayout: ConstraintLayout
     private lateinit var progressBar: ContentLoadingProgressBar
+    private lateinit var btnBack: AppCompatImageView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -69,6 +70,10 @@ class MovieDetailsActivity : AppCompatActivity(), BaseView {
         synopsis = findViewById(R.id.tv_synopsis)
         errorLayout = findViewById(R.id.layout_error)
         progressBar = findViewById(R.id.progress_bar)
+        btnBack = findViewById(R.id.btn_back)
+        btnBack.setOnClickListener {
+            finish()
+        }
     }
 
     private fun getMovieIntentExtra() {

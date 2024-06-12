@@ -27,7 +27,7 @@ class MovieAdapter (private var movies: List<Movie>, private val onMovieClickLis
         val movie = movies[position]
         holder.textViewTitle.text = movie.title
         Picasso.get()
-            .load("https://image.tmdb.org/t/p/w185" + movie.poster_path)
+            .load("https://image.tmdb.org/t/p/w300" + movie.poster_path)
             .transform(RoundedCornersTransformation(20f))
             .into(holder.imageViewPoster)
 
